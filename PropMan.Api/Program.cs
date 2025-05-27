@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(); // ✅ Add this
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Service.AddDbContext<CohoHubDbContext>(options => Use)
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
