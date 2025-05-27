@@ -1,0 +1,6 @@
+@PropMan.Api_HostAddress = http://localhost:5212
+
+GET {{PropMan.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
